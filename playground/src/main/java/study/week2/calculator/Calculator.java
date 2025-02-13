@@ -8,6 +8,7 @@ public class Calculator {
             case "-" -> firstNumber - secondNumber;
             case "*" -> firstNumber * secondNumber;
             case "/" -> (double) firstNumber / secondNumber;
+            case "%" -> firstNumber % secondNumber;
             default -> 0;
         };
     }
