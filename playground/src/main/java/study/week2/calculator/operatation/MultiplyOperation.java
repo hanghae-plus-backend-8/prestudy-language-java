@@ -1,8 +1,8 @@
 package study.week2.calculator.operatation;
 
-import study.week2.calculator.Operator;
+import study.week2.calculator.AbstractOperation;
 
-public class MultiplyOperation implements Operator {
+public class MultiplyOperation extends AbstractOperation {
 
     @Override
     public double operate(int firstNumber, int secondNumber) {
